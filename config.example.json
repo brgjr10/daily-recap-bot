@@ -1,0 +1,21 @@
+{
+  "discordWebhookUrls": [
+    "PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE"
+  ],
+  "githubUsername": "brgjr10",
+  "githubToken": null,
+  "githubTokenSource": "F:\\MCP Database\\brain-mcp\\config.json",
+  "sessionRoots": [
+    { "path": "C:\\Users\\brgjr\\.claude", "label": "windows" },
+    { "path": "\\\\ZIMASERVER\\ZimaOS-HD\\.claude", "label": "zimaos" }
+  ],
+  "projectsRoot": "\\\\ZIMASERVER\\ZimaOS-HD\\AppData\\Projects",
+  "secondBrainRepo": "brgjr10/second_brain",
+  "earlyMorningCutoffHour": 6,
+  "summarize": {
+    "enabled": false,
+    "apiUrl": "",
+    "apiKeyEnv": "",
+    "model": ""
+  }
+}
