@@ -1,0 +1,89 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="discord-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#36393f"/>
+      <stop offset="100%" style="stop-color:#2f3136"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Discord window background -->
+  <rect width="800" height="600" fill="url(#discord-bg)"/>
+  
+  <!-- Server list (left sidebar) -->
+  <rect x="0" y="0" width="72" height="600" fill="#202225"/>
+  <circle cx="36" cy="36" r="24" fill="#5865f2"/>
+  <text x="36" y="42" text-anchor="middle" font-family="system-ui" font-size="18" fill="white" font-weight="bold">DS</text>
+  
+  <!-- Channel list -->
+  <rect x="72" y="0" width="240" height="600" fill="#2f3136"/>
+  <text x="88" y="28" font-family="system-ui" font-size="13" fill="#b9bbbe" font-weight="600">DAILY RECAPS</text>
+  <rect x="72" y="48" width="240" height="40" fill="#40444b" rx="4"/>
+  <text x="96" y="73" font-family="system-ui" font-size="14" fill="white"># daily-standup</text>
+  <text x="96" y="110" font-family="system-ui" font-size="12" fill="#72767d"># standup-bot</text>
+  <text x="96" y="135" font-family="system-ui" font-size="12" fill="#72767d"># weekly-summary</text>
+  
+  <!-- Message area -->
+  <rect x="312" y="0" width="488" height="600" fill="#36393f"/>
+  
+  <!-- Channel header -->
+  <rect x="312" y="0" width="488" height="48" fill="#2f3136"/>
+  <text x="328" y="32" font-family="system-ui" font-size="16" font-weight="600" fill="white">daily-standup</text>
+  <text x="720" y="32" text-anchor="end" font-family="system-ui" font-size="12" fill="#72767d">12:05 AM</text>
+  
+  <!-- The embed message -->
+  <rect x="332" y="72" width="448" height="480" rx="8" fill="#2f3136" filter="url(#shadow)"/>
+  
+  <!-- Embed top bar (blue accent) -->
+  <rect x="332" y="72" width="4" height="480" rx="8 0 0 8" fill="#58a6ff"/>
+  
+  <!-- Embed title -->
+  <text x="352" y="104" font-family="system-ui" font-size="16" font-weight="600" fill="white">Daily Recap — Friday, Oct 4, 2026</text>
+  
+  <!-- Embed description -->
+  <text x="352" y="136" font-family="system-ui" font-size="14" fill="#dcddde">3 Kilo sessions across 2 projects; most active: standup (2 sessions); 1 session left unfinished; 12 commits pushed to 3 repos; 4 second-brain notes added or updated; 15 files edited; new project: memory-mcp-dockerfiles.</text>
+  
+  <!-- Stats fields -->
+  <rect x="352" y="168" width="130" height="56" rx="4" fill="#40444b"/>
+  <text x="362" y="192" font-family="monospace" font-size="20" font-weight="bold" fill="#58a6ff">3</text>
+  <text x="362" y="214" font-family="system-ui" font-size="11" fill="#b9bbbe">Kilo sessions</text>
+  
+  <rect x="494" y="168" width="130" height="56" rx="4" fill="#40444b"/>
+  <text x="504" y="192" font-family="monospace" font-size="20" font-weight="bold" fill="#3fb950">12</text>
+  <text x="504" y="214" font-family="system-ui" font-size="11" fill="#b9bbbe">Commits</text>
+  
+  <rect x="636" y="168" width="130" height="56" rx="4" fill="#40444b"/>
+  <text x="646" y="192" font-family="monospace" font-size="20" font-weight="bold" fill="#d29922">4</text>
+  <text x="646" y="214" font-family="system-ui" font-size="11" fill="#b9bbbe">Notes</text>
+  
+  <!-- Sessions section -->
+  <text x="352" y="260" font-family="system-ui" font-size="13" font-weight="600" fill="#b9bbbe">KILO SESSIONS</text>
+  
+  <text x="352" y="288" font-family="monospace" font-size="12" fill="#dcddde">• [00:12] Add README and logo for standup repo _ (2 turns, 3 files, 8m) — windows</text>
+  <text x="352" y="310" font-family="monospace" font-size="12" fill="#dcddde">• [02:45] Push project to GitHub _ (4 turns, 5 files, 15m) — zimaos</text>
+  <text x="352" y="332" font-family="monospace" font-size="12" fill="#a371f7">• [06:20] Fix config paths for Kilo Code _ (3 turns, 0 files, 5m) — windows</text>
+  
+  <!-- Pending section -->
+  <text x="352" y="368" font-family="system-ui" font-size="13" font-weight="600" fill="#f85149">NOT FINISHED</text>
+  <text x="352" y="392" font-family="monospace" font-size="12" fill="#f85149">• [06:20] Fix config paths for Kilo Code — unanswered prompt</text>
+  
+  <!-- Files section -->
+  <text x="352" y="424" font-family="system-ui" font-size="13" font-weight="600" fill="#b9bbbe">FILES TOUCHED</text>
+  <text x="352" y="448" font-family="monospace" font-size="11" fill="#8e9297">README.md, config.example.json, standup.mjs, logo.svg, config.json, install-task.ps1...</text>
+  
+  <!-- Brain notes section -->
+  <text x="352" y="476" font-family="system-ui" font-size="13" font-weight="600" fill="#b9bbbe">SECOND-BRAIN NOTES</text>
+  <text x="352" y="500" font-family="monospace" font-size="11" fill="#8e9297">• Add standup project to portfolio (Projects/standup.md)</text>
+  <text x="352" y="518" font-family="monospace" font-size="11" fill="#8e9297">• Document daily-standup architecture (Engineering/daily-standup.md)</text>
+  <text x="352" y="536" font-family="monospace" font-size="11" fill="#8e9297">• Update Kilo session paths in config</text>
+  <text x="352" y="554" font-family="monospace" font-size="11" fill="#8e9297">...and 1 more</text>
+  
+  <!-- Footer -->
+  <text x="748" y="560" text-anchor="end" font-family="system-ui" font-size="10" fill="#72767d">2026-10-04  •  BOT</text>
+  
+  <!-- Message input area -->
+  <rect x="312" y="552" width="488" height="48" fill="#40444b"/>
+  <text x="328" y="580" font-family="system-ui" font-size="14" fill="#72767d">Message #daily-standup</text>
+</svg>

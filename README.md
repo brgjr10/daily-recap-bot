@@ -13,16 +13,7 @@ Automated daily recap of your coding activity, posted to Discord. Collects work 
 
 ## Example output
 
-```
-Daily Recap — Friday, Oct 4, 2026
-
-Kilo sessions: 3 across 2 projects (most active: standup, 2 sessions)
-Commits: 12 pushed to 3 repos
-Second-brain notes: 4 added or updated
-Files edited: 15
-New projects: memory-mcp-dockerfiles
-Not finished: 1 session left unfinished
-```
+![Discord embed example](example-discord-embed.svg)
 
 The Discord embed includes:
 - Narrative summary (rule-based or LLM-generated)
