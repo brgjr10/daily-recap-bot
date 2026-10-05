@@ -5,9 +5,9 @@
   "githubUsername": "brgjr10",
   "githubToken": null,
   "githubTokenSource": "F:\\MCP Database\\brain-mcp\\config.json",
-  "sessionRoots": [
-    { "path": "C:\\Users\\brgjr\\.kilo", "label": "windows" },
-    { "path": "\\\\ZIMASERVER\\ZimaOS-HD\\.kilo", "label": "zimaos" }
+"sessionRoots": [
+    { "path": "C:\\Users\\you\\.claude", "label": "windows" },
+    { "path": "\\\\SERVER\\.claude", "label": "server" }
   ],
   "projectsRoot": "\\\\ZIMASERVER\\ZimaOS-HD\\AppData\\Projects",
   "secondBrainRepo": "brgjr10/second_brain",

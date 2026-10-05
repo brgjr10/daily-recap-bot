@@ -61,8 +61,8 @@ node standup.mjs --dry-run
   "githubToken": null,
   "githubTokenSource": "path/to/brain-mcp/config.json",
   "sessionRoots": [
-    { "path": "C:\\Users\\you\\.kilo", "label": "windows" },
-    { "path": "\\\\SERVER\\.kilo", "label": "server" }
+    { "path": "C:\\Users\\you\\.claude", "label": "windows" },
+    { "path": "\\\\SERVER\\.claude", "label": "server" }
   ],
   "projectsRoot": "\\\\SERVER\\AppData\\Projects",
   "secondBrainRepo": "yourusername/second_brain",
