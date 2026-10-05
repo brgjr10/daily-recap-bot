@@ -1,4 +1,4 @@
-# Daily Standup
+# Daily Recap Bot
 
 Automated daily recap of your coding activity, posted to Discord. Collects work from Kilo/Claude sessions, GitHub commits, second-brain notes, and new projects — then sends a clean summary to a Discord webhook.
 
